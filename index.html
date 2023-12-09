@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="card">
+      <picture class="card__img">
+        <source srcset="images/image-header-desktop.jpg" media="(min-width: 37.5rem)">
+        <img src="images/image-header-mobile.jpg" alt="">
+      </picture>
+
+      <div class="card__content">
+        <h1 class="card__heading">Get <span class="highlighted-word">insights</span> that help your business grow.</h1>
+
+        <p class="card__paragraph">Discover the benefits of data analytics and make better decisions regarding revenue,
+          customer
+          experience, and overall efficiency.</p>
+        <ul role="card__stats">
+          <li role="stats__details">
+            <strong class="stats__heading">10k+</strong>
+            <span class="stats__paragraph">companies</span>
+          </li>
+          <li role="stats__details">
+            <strong class="stats__heading">314</strong>
+            <span class="stats__paragraph">templates</span>
+          </li>
+          <li role="stats__details">
+            <strong class="stats__heading">12m+</strong>
+            <span class="stats__paragraph">queries</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
