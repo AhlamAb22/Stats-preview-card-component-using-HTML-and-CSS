@@ -116,7 +116,12 @@ body {
 }
 
 .card__img {
-    
+    background-color: var(--Soft-violet);
+}
+
+.card__img img{
+    mix-blend-mode: multiply;
+    opacity: 1;
 }
 
 .card__content {
@@ -139,13 +144,13 @@ body {
     font-size: 18px;
 }
 
-[role="card__stats"] {
+.card__stats {
     display: grid;
     gap: 2rem;
     list-style: none;
 }
 
-[role="stats__details"] {
+.stats__details {
     display: grid;
 }
 
@@ -174,7 +179,7 @@ body {
         min-width: 50%;
     }
 
-    [role="card__stats"] {
+    .card__stats {
         display: flex;
 
     }
