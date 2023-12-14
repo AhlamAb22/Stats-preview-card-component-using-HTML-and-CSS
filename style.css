@@ -106,7 +106,7 @@ body {
 
 .card {
     background-color: var(--Dark-desaturated-blue);
-    max-width: 375px; 
+    max-width: 375px;
     color: var(--White);
     font-family: var(--text-font-family);
     text-align: center;
