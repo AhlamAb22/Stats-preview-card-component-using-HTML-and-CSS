@@ -111,6 +111,7 @@ body {
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
+    margin: 10px;
 }
 
 .card__img {
@@ -130,7 +131,7 @@ body {
 
 .card__heading {
     line-height: 2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .highlighted-word {
@@ -139,13 +140,17 @@ body {
 
 .card__paragraph {
     color: var(--paragraph-transparent-white);
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .card__stats {
     display: grid;
     gap: 2rem;
     list-style: none;
+    justify-content: center; /* Center the grid within its container */
+    margin: 0; /* Reset margins */
+    padding: 0; /* Reset padding */
+    line-height: 1.5rem;
 }
 
 .stats__details {
@@ -156,6 +161,7 @@ body {
     font-family: var(--text-font-family);
     color: var(--White);
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .stats__paragraph {
@@ -177,8 +183,32 @@ body {
         min-width: 50%;
     }
 
+    .card__content{
+        margin: 20px;
+    }
+
+    .card__heading{
+        line-height: 2.3rem;
+        font-size: 2.3rem;
+    }
+
+    .card__paragraph{
+        font-size:1.125rem;
+    }
+
     .card__stats {
         display: flex;
+        justify-content: left;
+        line-height: .7rem;
+    }
 
+    .stats__heading{
+        display: flex;
+        justify-content: left;
+    }
+
+    .stats__paragraph{
+        font-size: .85rem;
+        font-size: 400;
     }
 }
